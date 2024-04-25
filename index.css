@@ -1,0 +1,64 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap'); */
+@font-face {
+    font-family: "Figtree-Italic-Variable";
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"Figtree-Variable" ;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+   font-size: 16px;
+   
+}
+.container{
+    width: 375px;
+    margin-inline: auto;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid  hsl(0, 0%, 7%);
+    border-radius: 20px;
+    box-shadow:5px 5px;
+    margin-bottom: 25px;
+   
+}
+.container p {
+    color: hsl(0, 0%, 50%);
+    font-family: "Figtree-Variable";
+}
+h3 h2{
+    font-family: "Figtree-Italic-Variable", sans-serif;
+}
+  .loding h3 {
+    background-color:hsl(47, 88%, 63%);
+    width: min-content;
+    padding: 10px;
+    border-radius: 0.5rem;
+    
+}
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    
+
+}
+.container .roket{
+    width: 100%;
+    border-radius: 15px;
+}
+.container .avatar0{
+   align-items:first baseline;
+
+}
+.avatar {
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+}
+.avatar p{
+    color:  hsl(0, 0%, 7%);
+}
